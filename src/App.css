@@ -1,0 +1,71 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.wrapper {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.character-count {
+    font-size: 14px;
+    color: #666;
+    text-align: right;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.controls .row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.controls .icons {
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
